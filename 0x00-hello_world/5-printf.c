@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 
-/**
- * main - Entry point
- * Description: prints "\"Programming is like building a multilingual puzzle"
- * Return: Always 0 (Success)
- */
+  /**
+   *
+   * main - Entry point
+   * My hello, print task
+   * Return: return 1 after program execution
+   */
 
-int main(void)
+ int main(void)
 
-{
+ {
 
-	printf("with proper grammar, but the outcome is a piece of
-
-			art,\n");
-
+    Printf("with proper grammar, but the outcome is a piece of art,\n");
+    Printf("Size of an int: %d byete(s) \n", 
 	return (0);
 
-}
+ }
