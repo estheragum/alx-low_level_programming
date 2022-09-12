@@ -1,36 +1,28 @@
 #include <stdio.h>
-
-/**
-* main - Prints the numbers from 00 to 99, numbers seperated by
- * a comma followed by a space, in ascending order.
- *
- * main - Entry point
- * Description: prints two digits combination
- * Return: Always 0 (success)
+ /**
+ * main - program that prints all possible different combinations of 2 digits
+ * Return: 0
  */
 int main(void)
 {
-int digit1, digit2;
-int c, i;
+int c = 0;
+int f_d;
+int l_d;
 
-for (digit2 = 0; digit2 <= 9; digit2++)
-for (c = '0'; c <= '9'; c++)
+while (c <= 99)
 {
-for (digit2 = 0; digit2 <= 9; digit2++)
-for (i = '0'; i <= '9'; i++)
-{
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
-if (c < i)
-{
-putchar(c);
-putchar(i);
-}
-}
-}
-}
+f_d = (c / 10 + '0');
+l_d = (c % 10 + '0');
 
+if (f_d < l_d)
+{
+putchar(f_d);
+putchar(l_d);
+}
+}
+c++;
+}
 putchar('\n');
-
 return (0);
 }
+
