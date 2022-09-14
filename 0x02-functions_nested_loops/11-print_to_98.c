@@ -1,18 +1,37 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
- *  Description: give two integers, returns sum
- *  Return: sum
+ * print_to_98 - Prints all natural numbers from input to 98,
+ * in order separated by a comma followed by a space.
+ * @n: The number to begin counting at.
  */
-
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-int sum;
 
-sum = n1 + n2;
+if (n >= 98)
 
-return (sum);
+{
+
+while (n > 98)
+
+printf("%d, ", n--);
+
+printf("%d\n", n);
+
+}
+
+
+
+
+else
+
+{
+
+while (n < 98)
+
+printf("%d, ", n++);
+
+printf("%d\n", n);
+
+}
 }
