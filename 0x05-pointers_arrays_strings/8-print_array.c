@@ -1,10 +1,11 @@
 #include "main.h"
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints array
  * @a: pointer of array
  * @n: how many times to prints
+ *
  */
 
 void print_array(int *a, int n)
