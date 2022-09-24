@@ -23,6 +23,7 @@ if (n < 0)
 _putchar('-');
 n += 1;
 n *= -1;
+n++;
 }
 abs = n;
 abSCount = n;
