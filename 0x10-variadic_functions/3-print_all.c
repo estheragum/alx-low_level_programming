@@ -22,7 +22,7 @@ printf("%s%c", sep, va_arg(arguments, int));
 break;
 case 'i':
 printf("%s%i", sep, va_arg(arguments, int));
-break,
+break;
 case 'f':
 printf("%s%f", sep, va_arg(arguments, double));
 break;
