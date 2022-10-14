@@ -12,6 +12,8 @@ int x, i;
 
 if (size > 0 && array && cmp)
 {
+for (i = 0; i < size; i++)
+{
 x = cmp(array[i]);
 if (x)
 break;
