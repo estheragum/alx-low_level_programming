@@ -1,4 +1,4 @@
-#include <string.h
+#include <string.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -23,7 +23,6 @@ return (i);
  * @str: haha ex di
  *  Return: Returns amount of node
  **/
-
 list_t *add_node(list_t **head, const char *str)
 {
 
